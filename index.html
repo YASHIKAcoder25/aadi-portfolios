@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Performance Marketer</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONT -->
+ <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="profile">
+  </div>
+
+  <h1>Hi, I'm Aadi Kashyap</h1>
+  <h2 class="headline">Work With Us</h2>
+<p class="subline">
+  Performance Marketer • Meta Ads Specialist • Scaling Brands to 7-Figures
+</p>
+<p class="status">🟢 Available for new projects</p>
+  <div class="buttons">
+   <button class="primary" id="bookBtn">Book a Call</button>
+  </div>
+</section>
+
+  <section class="meta-dashboard">
+
+  <div class="particles"></div>
+
+  <div class="container reveal">
+
+    <h2 class="title">Meta Ads Specialist</h2>
+
+    <p class="subtitle">
+      Performance-focused ad strategy across Facebook & Instagram — built around targeting, creative testing, and conversion optimization.
+    </p>
+
+    <!-- DASHBOARD CARDS -->
+    <div class="dashboard">
+
+      <div class="card pulse">
+        🎯
+        <h3>Targeting</h3>
+        <p>Audience segmentation & behavior-based reach</p>
+      </div>
+
+      <div class="card">
+        🎨
+        <h3>Creatives</h3>
+        <p>Ad copy + visual testing variations</p>
+      </div>
+
+      <div class="card">
+        📊
+        <h3>Testing</h3>
+        <p>A/B testing for performance improvement</p>
+      </div>
+
+      <div class="card pulse">
+        🚀
+        <h3>Optimization</h3>
+        <p>Continuous campaign refinement</p>
+      </div>
+
+    </div>
+
+    <!-- FLOW ANIMATION -->
+    <div class="flow-line">
+      <span>Awareness</span>
+      <div class="line"></div>
+      <span>Interest</span>
+      <div class="line"></div>
+      <span>Conversion</span>
+    </div>
+
+  </div>
+</section>
+<!-- PROOF STRIP -->
+<div class="stats">
+  <div>₹10L+ Revenue</div>
+  <div>5X ROAS</div>
+  <div>20+ Brands</div>
+</div>
+
+<!-- RESULTS -->
+<section class="results animate">
+  <h2>Results That Speak</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3 class="counter" data-target="6000">0</h3>
+      <p>Leads Generated</p>
+    </div>
+
+    <div class="card">
+      <h3 class="counter" data-target="5">0</h3>
+      <p>ROAS Achieved</p>
+    </div>
+
+    <div class="card">
+      <h3 class="counter" data-target="10">0</h3>
+      <p>Lakhs Revenue</p>
+    </div>
+  </div>
+</section>
+
+ <section class="live-campaign-section animate">
+
+  <h2>Live Campaign Performance</h2>
+
+  <!-- ROW 1: METRICS -->
+  <div class="campaign-row">
+
+    <div class="metric">₹6,00,000<br><p>Ad Spend</p></div>
+
+    <div class="metric">₹10,00,000<br><p>Revenue</p></div>
+
+    <div class="metric">3.33x<br><p>ROAS</p></div>
+
+    <div class="metric">25,000<br><p>Leads</p></div>
+
+  </div>
+
+</section>
+  <section class="case-study animate">
+  <h2>Case Study</h2>
+
+  <div class="case-card" onclick="openCaseStudy()">
+    <h3>E-commerce Brand Scaling</h3>
+    <p>₹5L → ₹10L in 30 Days</p>
+  </div>
+</section>
+  <canvas id="adChart"></canvas>
+</section>
+<!-- SERVICES -->
+<section class="services animate">
+  <h2>What I Do</h2>
+
+  <div class="grid">
+    <div class="card">Meta Ads Strategy</div>
+    <div class="card">Lead Generation</div>
+    <div class="card">Scaling Campaigns</div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process animate">
+
+  <h2>My Process</h2>
+
+  <div class="grid">
+    <div class="step">Research</div>
+    <div class="step">Strategy</div>
+    <div class="step">Execution</div>
+    <div class="step">Scaling</div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta animate">
+  <h2>Let’s Scale Your Brand</h2>
+  <a href="#" class="cta-btn">Start Now 🚀</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Built for someone who refuses to stay average.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+<!-- CONTACT MODAL -->
+<!-- BOOK A CALL BUTTON -->
+<button class="primary" id="bookBtn">Book a Call</button>
+
+<!-- CONTACT MODAL -->
+
+<div id="contactModal" class="modal">
+  <div class="modal-content premium">
+
+    <span class="close">&times;</span>
+
+    <h2>Let’s Work Together 🚀</h2>
+
+    <p class="tagline">
+      Scaling brands with performance marketing & data-driven strategies.
+    </p>
+
+    <div class="contact-grid">
+
+      <a href="mailto:aadikashyap417@gmail.com" class="contact-card">
+        📧
+        <span>Email</span>
+      </a>
+
+      <a href="tel:+919997443638" class="contact-card">
+        📞
+        <span>Call</span>
+      </a>
+
+      <a href="https://wa.me/919997443638" class="contact-card">
+        💬
+        <span>WhatsApp</span>
+      </a>
+
+      <a href="https://www.instagram.com/kushaal_kashyap_09" target="_blank" class="contact-card">
+        📸
+        <span>Instagram</span>
+      </a>
+
+      <a href="https://www.facebook.com/799885539884445/" target="_blank" class="contact-card">
+        📘
+        <span>Facebook</span>
+      </a>
+
+      <a href="https://in.linkedin.com/in/aadi-kashyap-45a3a5277" target="_blank" class="contact-card">
+        💼
+        <span>LinkedIn</span>
+      </a>
+
+    </div>
+
+    <p class="trust-line">⚡ Serious inquiries only. Let’s scale your brand.</p>
+
+  </div>
+</div>
+<div id="caseModal" class="modal">
+  <div class="modal-content">
+
+    <span class="close" onclick="closeCaseStudy()">&times;</span>
+
+    <h2>Case Study Breakdown</h2>
+
+    <p><strong>Client:</strong> E-commerce Brand</p>
+    <p><strong>Budget:</strong> ₹20,00,000</p>
+    <p><strong>Revenue Generated:</strong> ₹10,00,000</p>
+    <p><strong>ROAS:</strong> 3.33X</p>
+
+    <hr>
+
+    <p><strong>Strategy:</strong></p>
+    <ul>
+      <li>Audience testing</li>
+      <li>Creative variations</li>
+      <li>Retargeting funnel</li>
+    </ul>
+
+  </div>
+</div>
+
+<section class="work">
+  <h2>Work With Me</h2>
+  <p>Tell me about your business and goals</p>
+
+ <form id="contactForm">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+
+  <input type="email" name="email" placeholder="Your Email" required>
+
+  <input type="text" name="business" placeholder="Your Business / Brand">
+
+  <textarea name="message" placeholder="What do you want to achieve?" required></textarea>
+
+  <button type="submit">Submit Request 🚀</button>
+
+</form>
+
+<p id="successMsg"></p>
+</section>
+</body>
+</html>
